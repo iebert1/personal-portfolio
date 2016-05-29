@@ -12,7 +12,7 @@ body{
 .header{
   position: relative;
   z-index: 0;
-  height: 75px;
+  height: 100px;
   width: 100%;
   background-color: white;
 }
@@ -46,9 +46,9 @@ body{
   z-index: 1;
   margin-top: 12px;
   color: #1EA8A5;
-  font-size: 3vw;
+  font-size: 2em;
   text-shadow: 2px 1px 3px;
-  border: 7px dotted #FF9AC8;
+  border: 4px dotted #FF9AC8;
   border-radius: 35px;
   margin-right: 1100px;
   margin-left: 25px;
@@ -58,15 +58,18 @@ body{
 #blue-paint1{
   position: absolute;
   z-index: -2;
-  top: 0;
-  left: 10px;
-  height: 130%;
+  top: 0px;
+  left: -5px;
+  height: 100%;
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
 }
 .main-content-home{
   position: relative;
   z-index: 0;
   width: 100%;
-  height: 600px;
+  height: auto;
   text-align: center;
   display: inline-block;
   margin-top: 0px;
@@ -81,7 +84,7 @@ body{
     );
 }
 .main-title{
-  font-size: 10vw;
+  font-size: 5em;
   color: #1EA8A5 ;
   text-shadow: -1px 0 #00ffde, 0 1px #00ffde, 1px 0 #00ffde, 0 -1px white;
   text-border-color: white;
@@ -106,7 +109,7 @@ body{
   }
 
 .sub-title{
-  font-size: 7vw;
+  font-size: 5em;
   margin-left: auto;
   margin-right: auto;
   text-shadow: -1 0 gray, 0 1px white, 1px 0 white, 0 -1px white;
@@ -162,7 +165,7 @@ body{
 }
 .about-title{
   text-align: center;
-  font-size: 9vw;
+  font-size: 5em;
   color: #1EA8A5 ;
   text-shadow: -1px 0 #00ffde, 0 1px #00ffde, 1px 0 #00ffde, 0 -1px white;
   text-border-color: white;
@@ -197,14 +200,17 @@ body{
 #about-text{
   font-family: Garamond;
   width: 85%;
-  font-size: 1.7em;
+  font-size: 1.6em;
 }
-#green-blue-swirl{
+#multicolor-paint{
   position: absolute;
   z-index: -2;
-  top: 40%;
+  top: 5%;
   left: 20%;
   width: 70%;
+  -ms-transform: rotate(160deg); /* IE 9 */
+  -webkit-transform: rotate(160deg); /* Chrome, Safari, Opera */
+  transform: rotate(160deg);
 }
 .main-content-portfolio{
   height: auto;
@@ -216,7 +222,7 @@ body{
 }
 .portfolio-title{
   text-align: center;
-  font-size: 9vw;
+  font-size: 5em;
   color: #1EA8A5 ;
   text-shadow: -1px 0 #00ffde, 0 1px #00ffde, 1px 0 #00ffde, 0 -1px white;
   text-border-color: white;
@@ -240,13 +246,13 @@ body{
   padding-bottom: 100px;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 1.5em;
+  font-size: 1em;
   background-color: white;
   border: 15px solid #;
 }
 .contact-title{
   text-align: center;
-  font-size: 9vw;
+  font-size: 5em;
   color: #1EA8A5 ;
   text-shadow: -1px 0 #00ffde, 0 1px #00ffde, 1px 0 #00ffde, 0 -1px white;
   text-border-color: white;
@@ -265,7 +271,9 @@ body{
   position: relative;
   z-index: -2;
 }
-h1{
-  padding: 40px;
-  font-size: 8vw;
+
+
+/* MediaQuery additions */
+@media only screen and (min-width: 1024px){
+
 }
