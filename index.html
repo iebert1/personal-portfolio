@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html >
+<html>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Irina Ebert</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/rwdgrid.css">
+    <link rel="stylesheet" href="node_modules/css-font-family/css/css-font-family.css">
+    
+  </head>
 
-</head>
-
-<body class="container">
+<body>
  <div class="main-page">
 
   <!--Header-content START -->
   <div class="header">
-   <span id="logo">IE</span>
-     <img class="responsive" id="blue-paint1" src="img/aqua-splatter.png"></img>
-     <div class="header-content">
+     <div class="left-content">
+       <span id="logo">IE</span>
+       <img id="blue-paint1" src="img/aqua-splatter.png"></img>
+     </div>
+     <div class="right-content">
       <ul>
        <li class="nav"><a href="http://www.latinrefreshed.com/">BLOG</a></li>
        <li class="nav"><a href="#about">ABOUT</a></li>
@@ -30,126 +32,131 @@
    <!--Home-content START -->
    <section class="main-content-home"><a name="home"></a>
     <h2 class="main-title">Ирина's</h2>
-    <!--green paint img-->
-     <div>
-       <img class="responsive" id="green-paint" src="img/aqua-splatter.png"></img>
-     </div>
      <h3 class="sub-title">Code Book</h3>
      <div>
-       <img class="responsive" height="300" id="aqua-paint" src="img/aqua-splatter.png"></img>
+       <img id="aqua-paint" src="img/aqua-splatter.png"></img>
      </div>
 
       <!--pink paint img-->
      <div>
-       <img class="responsive" height="786" id="pink-paint" src="img/pink-splash.png"></img>
+       <img id="pink-paint" src="img/pink-splash.png"></img>
      </div>
 
 
      <!--social media buttons-->
      <div class="media-btn">
-      <ul class="btn-content">
+      <ul>
        <li>
         <div class="btn codepen">
-          <a href="http://codepen.io/iebert1/" target="blank"><img class="responsive" src="http://i67.tinypic.com/312tu75.jpg"></a>
+          <a href="http://codepen.io/iebert1/" target="blank"><img src="http://i67.tinypic.com/312tu75.jpg"></a>
         </div>
        </li>
 
        <li>
         <div class="btn github">
-          <a href="https://github.com/iebert1" target="blank"><img class="responsive" src="http://i66.tinypic.com/8zl8b4.jpg"></a>
+          <a href="https://github.com/iebert1" target="blank"><img src="http://i66.tinypic.com/8zl8b4.jpg"></a>
         </div>
        </li>
 
        <li>
         <div class="btn twitter">
-          <a href="https://twitter.com/IrinaEbert" target="blank"><img class="responsive" src="http://i66.tinypic.com/24vqfif.jpg"></a>
+          <a href="https://twitter.com/IrinaEbert" target="blank"><img src="http://i66.tinypic.com/24vqfif.jpg"></a>
         </div>
        </li>
 
        <li>
         <div class="btn youtube">
-          <a href="https://www.youtube.com/watch?v=3wuRgIseU3o" target="blank"><img class="responsive" src="http://i64.tinypic.com/2efojli.jpg"></a>
+          <a href="https://www.youtube.com/watch?v=3wuRgIseU3o" target="blank"><img src="http://i64.tinypic.com/2efojli.jpg"></a>
         </div>
        </li>
       </ul>
      </div>
-    </div>
    </section>
    <!--Home-content END -->
 
    <!--About-content START -->
    <section class="container main-content-about">
      <a name="about"></a>
-     <h1 class="about-title">About</h1>
-     <div class='grid-6'>
-        <img class="responsive" id="image-face" src="img/Ebert-frame2.png">
-      </div>
-      <div class='grid-6'>
-        <div id="about-text">
-          <p>Hi, I'm Irina. <br> I grew up in Russia and matured in the US. <br> I teach High School Latin and learn to code because it's fun! <br>
-          <strong>Super intelligent</strong> and <strong>compulsively organized</strong> are <strong>NOT</strong> the words I would use to describe myself.
-          I try not to take life too seriously and focus more on drinking good coffee and creating something cool.</p>
-          <div id="multicolor-paint"><img class="responsive" src="img/multicolor-paint.png">
-          </div>
+       <div class="title">
+        <h3>About</h3>
+       </div>
+       <div class="about-content">
+        <div class="photo">
+         <img src="img/irina-circle.gif">
         </div>
-     </div>
+        <div class="text-about">
+          <h3> Who is Irina?</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+       </div>
     </section>
     <!--About-content END -->
 
     <!--Portfolio-content START -->
     <section class="container main-content-portfolio">
       <a name="portfolio"></a>
-      <h2 class="portfolio-title">Portfolio</h2>
+      <div class="title">
+       <h3>Portfolio</h3>
+      </div>
+        <div class="p-row">
 
-      <div class='grid-4'>
-         <a href="http://www.latinrefreshed.com/">
-        <img class="responsive" src="http://i68.tinypic.com/2njeo0g.jpg" alt="GO TO www.latinrefreshed.com"></a>
+         <div class="p-cell">
+           <a href="http://www.latinrefreshed.com/">
+            <img src="http://i68.tinypic.com/2njeo0g.jpg" alt="GO TO www.latinrefreshed.com"></a>
+         </div>
+
+         <div class="p-cell">
+           <a href="http://www.latinrefreshed.com/">
+            <img src="img/placeholder2.png" width="320" height="160" alt="GO TO www.latinrefreshed.com"></a>
+        </div>
       </div>
 
-      <div class='grid-4'>
-         <a href="http://www.latinrefreshed.com/">
-        <img class="responsive" src="http://i68.tinypic.com/2njeo0g.jpg" alt="GO TO www.latinrefreshed.com"></a>
-      </div>
+      <div class="p-row">
+        <div class="p-cell">
+          <a href="http://www.latinrefreshed.com/">
+           <img src="img/placeholder2.png" width="320" height="160" alt="GO TO www.latinrefreshed.com"></a>
+        </div>
 
-      <div class='grid-4'>
+       <div class="p-cell">
          <a href="http://www.latinrefreshed.com/">
-        <img class="responsive" src="http://i68.tinypic.com/2njeo0g.jpg" alt="GO TO www.latinrefreshed.com"></a>
-      </div>
+        <img src="img/placeholder2.png" width="320" height="160" alt="GO TO www.latinrefreshed.com"></a>
+       </div>
+     </div>
+     <div class="p-row">
+       <div class="p-cell">
+         <a href="http://www.latinrefreshed.com/">
+        <img src="img/placeholder2.png" width="320" height="160" alt="GO TO www.latinrefreshed.com"></a>
+       </div>
 
-      <div class='grid-4'>
-         <a href="http://www.latinrefreshed.com/">
-        <img class="responsive" src="http://i68.tinypic.com/2njeo0g.jpg" alt="GO TO www.latinrefreshed.com"></a>
+      <div class="p-cell">
+        <a href="http://www.latinrefreshed.com/">
+        <img src="img/placeholder2.png" width="320" height="160" alt="GO TO www.latinrefreshed.com"></a>
       </div>
-
-      <div class='grid-4'>
-         <a href="http://www.latinrefreshed.com/">
-        <img class="responsive" src="http://i68.tinypic.com/2njeo0g.jpg" alt="GO TO www.latinrefreshed.com"></a>
-      </div>
-
-      <div class='grid-4'>
-         <a href="http://www.latinrefreshed.com/">
-        <img class="responsive" src="http://i68.tinypic.com/2njeo0g.jpg" alt="GO TO www.latinrefreshed.com"></a>
-      </div>
+    </div>
     </section>
     <!--Portfolio-content END -->
 
     <!--Contact-content START -->
-    <section class="container contact">
+    <div class="contact">
       <a name="contact"></a>
-      <h2 class="contact-title">Contact</h2>
-      <div id="pink-paint2"><img class="responsive" src="img/green-blue-swirl.png">
+      <div class="title">
+       <h3>Contact</h3>
       </div>
-      <div class="phone-contact"><img class="responsive" src="img/phone.jpg" width="300">
+      <div id="green"><img src="img/green-paint-splash.png">
       </div>
-      <h2>Email me at irinaebert@gmail.com</h2>
+      <div class="phone-contact"><img src="img/phone.jpg" width="200">
+      </div>
+      <div class="email">
+        <h2>irinaebert@gmail.com</h2>
+      </div>
     </section>
     <!--Contact-content END -->
    </div>
 </body>
-
-
-
-
-
 
 </html>
