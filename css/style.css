@@ -481,6 +481,10 @@ h2{
 }
 }
 @media only screen and (max-width: 375px){
+  section{
+    max-width: 692px;
+    height: 650px;
+  }
   .right-content li a{
    font-size: 4px;
    text-decoration: none;
@@ -509,9 +513,9 @@ h2{
   }
   .text-about{
     width: 300px;
-    height: 700px;
+    height: 620px;
     display:flex;
-    padding: 0px;
+    padding: 5px;
     font-size: .4em;
   }
   .photo img{
