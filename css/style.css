@@ -488,6 +488,13 @@ h2{
    color: #1EA8A5;
    display: inline-block;
   }
+  #pink-paint{
+    position: absolute;
+    z-index: -1;
+    top: 200px;
+    right: 40px;
+    width:90%;
+  }
   .title{
     font-size: 2em;
   }
@@ -500,12 +507,12 @@ h2{
    justify-content: space-between;
    flex-direction: row;
   }
-  .about-content{
-    background-color: ;
+  text-about{
     width: 300px;
-    height: 740px;
+    height: 600px;
     display:flex;
     padding: 0px;
+    font-size: .4em;
   }
   .photo img{
     padding: 0px;
@@ -514,10 +521,6 @@ h2{
   }
   h5{
     font-size: 12px;
-  }
-  .text-about p{
-    float: right;
-    font-size: .4em;
   }
   .phone-contact img{
     width: 100px;
