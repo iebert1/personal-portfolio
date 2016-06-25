@@ -507,9 +507,9 @@ h2{
    justify-content: space-between;
    flex-direction: row;
   }
-  text-about{
+  .text-about{
     width: 300px;
-    height: 600px;
+    height: 700px;
     display:flex;
     padding: 0px;
     font-size: .4em;
