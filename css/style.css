@@ -224,20 +224,21 @@ p{
 }
 .p-cell:hover{
   padding: 20px;
-  border: 5px solid #85E8B3;
+  border: 3px solid #1EA8A5;
   border-radius: 22px;
   box-shadow: inset 5px 5px 5px gray;
   margin: 7px 12px;
   background-color: lightgray;
+  opacity: 1;
 }
 .p-cell{
   padding: 20px;
-  border: 7px solid #85E8B3;
-  border-radius: 17px;
+  border: 5px solid lightblue;
+  opacity: .8;
+  border-radius: 19px;
   margin: 5px 10px;
   background-color: lightgray;
 }
-
 
 /*CONTACT*/
 .main-content-contact{
