@@ -341,3 +341,6 @@ footer{
 
 /* MediaQuery additions YAY */
 @media only screen and (max-width: 846px){
+  .sidebar{
+    display: none;
+  }
