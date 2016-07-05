@@ -353,14 +353,14 @@ footer{
   top: 380px;
   right: 180px;
   z-index: 1;
-  opacity: .2
+  cursor: pointer;
 }
 /*[type="checkbox"]:checked + .page-wrap{*/
  [type="checkbox"]:checked + .page-wrap .sidebar{
     right: 0px;
 }
 
-[type="checkbox"]:not(:checked) + .toggle:hover .toggle{
+[type="checkbox"]:not(:checked) + .sidebartoggler:hover{
   color: green;
 }
 
