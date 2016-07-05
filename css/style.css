@@ -1,8 +1,10 @@
 
 @font-face { font-family: A-Bit-Empty; src: url("../A Bit Empty.ttf"); }
 @font-face { font-family: simple joys; src: url("../simple joys.ttf"); }
-.container{
+body{
   font-family: A-Bit-Empty;
+}
+.container{
   width: 1100px;
   margin: auto;
   height: auto;
@@ -286,12 +288,12 @@ footer{
 }
 
 .sidebar{
-  position: absolute;
-  top: 95px;
+  position: fixed;
+  top: 100px;
   bottom: 2px;
-  right: 0;
+  right: -190px;
   z-index: 0;
-  width:130px;
+  width:137px;
   padding: 10px;
   background: white;
   border-bottom: double white 6px;
@@ -339,6 +341,27 @@ footer{
 #sub-links li a:hover{
   font-size: 15px;
   color: #85E8B3;
+}
+#sidebartoggler{
+  display: none;
+}
+.toggle{
+  text-decoration: none;
+  font-size: 100px;
+  color: black;
+  position: absolute;
+  top: 380px;
+  right: 180px;
+  z-index: 1;
+  opacity: .2
+}
+/*[type="checkbox"]:checked + .page-wrap{*/
+ [type="checkbox"]:checked + .page-wrap .sidebar{
+    right: 0px;
+}
+
+[type="checkbox"]:not(:checked) + .toggle:hover .toggle{
+  color: green;
 }
 
 /* MediaQuery additions YAY */
