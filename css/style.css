@@ -135,6 +135,8 @@ header{
   top: 300px;
   right: 400px;
   opacity: .5;
+  transition-delay: 4s;
+  transition-duration: 3s;
 }
 #pink-paint{
   position: absolute;
@@ -142,6 +144,7 @@ header{
   top: 40px;
   right: 70px;
   width:80%;
+  transition-duration: 4s;
 }
 .media-btn ul{
  display: flex;
@@ -287,21 +290,7 @@ footer{
   font-family: Helvetica;
 }
 
-.sidebar{
-  position: fixed;
-  top: 100px;
-  bottom: 2px;
-  right: -190px;
-  z-index: 0;
-  width:137px;
-  padding: 10px;
-  background: white;
-  border-bottom: double white 6px;
-  border-left: dotted lightblue 8px;
-  margin-right: 10px;
-  margin-left: 10px;
-  opacity: .9;
-}
+
 .sidebar ul{
   padding: 0px;
 }
@@ -345,23 +334,48 @@ footer{
 #sidebartoggler{
   display: none;
 }
+.sidebar{
+  position: fixed;
+  top: 100px;
+  bottom: 2px;
+  right: -190px;
+  z-index: 0;
+  width:137px;
+  padding: 10px;
+  background: white;
+  border-bottom: double white 6px;
+  border-left: dotted lightblue 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+  opacity: .9;
+  transition-duration: 2s;
+}
 .toggle{
   text-decoration: none;
   font-size: 100px;
-  color: black;
+  color: lightgray;
   position: absolute;
   top: 380px;
   right: 180px;
   z-index: 1;
   cursor: pointer;
+  transition-duration: 4s;
+
 }
 /*[type="checkbox"]:checked + .page-wrap{*/
  [type="checkbox"]:checked + .page-wrap .sidebar{
     right: 0px;
 }
 
-[type="checkbox"]:not(:checked) + .sidebartoggler:hover{
+[type="checkbox"]:hover{
   color: green;
+  text-decoration: none;
+  font-size: 100px;
+  position: absolute;
+  top: 380px;
+  right: 180px;
+  z-index: 1;
+  cursor: pointer;
 }
 
 /* MediaQuery additions YAY */
