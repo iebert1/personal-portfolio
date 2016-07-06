@@ -234,7 +234,7 @@ p{
   justify-content: center;
   padding: 20px;
 }
-.p-cell:hover{
+/*.p-cell:hover{
   padding: 20px;
   border: 3px solid #1EA8A5;
   border-radius: 22px;
@@ -242,7 +242,7 @@ p{
   margin: 7px 12px;
   background-color: lightgray;
   opacity: 1;
-}
+}*/
 .p-cell{
   padding: 20px;
   border: 5px solid lightblue;
@@ -250,6 +250,37 @@ p{
   border-radius: 19px;
   margin: 5px 10px;
   background-color: lightgray;
+  position: relative;
+}
+.cell-overlay{
+  font-family: Helvetica;
+  display: none;
+}
+.p-cell:hover .cell-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: lightblue;
+  height: 100%;
+  opacity: .9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+strong{
+  font-size: 25px;
+  color: #1EA8A5 ;
+  padding: 0;
+  margin: 0;
+}
+.overlay-detail{
+  font-family: simple joys;
+  color: white;
+  font-size: 65px;
+  padding-left: 5px;
 }
 
 /*CONTACT*/
